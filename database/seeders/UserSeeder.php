@@ -14,7 +14,7 @@ class UserSeeder extends Seeder
     public function run(): void
     {
        
-        if (!User::where('email', 'teste@teste.com')-> first ()) {
+        if (!User::where('email', 'teste@teste.com') -> first ()) {
             User::create([
                 'name' => 'Kayke',
                 'email' => 'teste@teste.com',
@@ -23,7 +23,7 @@ class UserSeeder extends Seeder
            
         }
 
-        if (!User::where('email', 'teste2@teste.com')-> first ()) {
+        if (!User::where('email', 'teste2@teste.com') -> first ()) {
             User::create([
                 'name' => 'Adriano',
                 'email' => 'teste2@teste.com',
@@ -32,7 +32,7 @@ class UserSeeder extends Seeder
            
         }
 
-        if (!User::where('email', 'teste3@teste.com')-> first ()) {
+        if (!User::where('email', 'teste3@teste.com') -> first ()) {
             User::create([
                 'name' => 'Karen',
                 'email' => 'teste3@teste.com',
@@ -41,7 +41,7 @@ class UserSeeder extends Seeder
            
         }
 
-        if (!User::where('email', 'teste4@teste.com')-> first ()) {
+        if (!User::where('email', 'teste4@teste.com') -> first ()) {
             User::create([
                 'name' => 'Cris',
                 'email' => 'teste4@teste.com',
@@ -50,7 +50,7 @@ class UserSeeder extends Seeder
            
         }
 
-        if (!User::where('email', 'teste5@teste.com')-> first ()) {
+        if (!User::where('email', 'teste5@teste.com') -> first ()) {
             User::create([
                 'name' => 'João',
                 'email' => 'teste5@teste.com',
@@ -59,7 +59,7 @@ class UserSeeder extends Seeder
            
         }
 
-        if (!User::where('email', 'teste6@teste.com')-> first ()) {
+        if (!User::where('email', 'teste6@teste.com') -> first ()) {
             User::create([
                 'name' => 'Iago',
                 'email' => 'teste6@teste.com',
