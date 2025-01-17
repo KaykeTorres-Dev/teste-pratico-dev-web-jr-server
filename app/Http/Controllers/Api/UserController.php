@@ -43,10 +43,10 @@ class UserController extends Controller
         }
     }
 
-    //Exibe todos os usuários do banco de dados em ordem descrecente, exibindo 5 usuários por página
+    //Exibe todos os usuários do banco de dados em ordem descrescente
     public function index(): JsonResponse
     {
-        $users = User::orderBy('id', 'DESC') -> paginate(5);
+        $users = User::orderBy('id', 'DESC') -> get();
         return response()-> json([
             'status' => true,
             'users' => $users,
