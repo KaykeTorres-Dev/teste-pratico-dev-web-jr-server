@@ -13,7 +13,6 @@ class UserController extends Controller
 {
     //Criação do usuário no banco de dados
     public function store(UserRequest $request): JsonResponse
-
     {
         DB::beginTransaction();
 
@@ -39,7 +38,6 @@ class UserController extends Controller
                 'status' => false,
                 'message' => 'Erro ao cadastrar usuário, por favor tente novamente!',
             ], 400);
-            
         }
     }
 
