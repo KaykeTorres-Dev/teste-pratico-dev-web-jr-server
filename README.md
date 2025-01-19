@@ -28,7 +28,6 @@ composer global require laravel/installer
 ```
 
 Duplicar o arquivo ".env.example" e renomear para ".env".<br>
-Alterar no arquivo .env as credenciais do banco de dados<br>
 
 Gerar a chave no arquivo .env
 ```
