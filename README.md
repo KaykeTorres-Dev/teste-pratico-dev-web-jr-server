@@ -11,9 +11,9 @@ Este projeto foi realizado utilizando Laravel 11, Xampp 8.2.12 e Composer 2.8.4.
 
 ## Requisitos
 
-* PHP 8.2 ou superior
-* MySQL 8 ou superior
-* Composer
+* <a href="https://www.apachefriends.org/pt_br/index.html">Xampp</a> 
+* <a href="https://laravel.com/docs/11.x">Laravel</a>  
+* <a href="https://getcomposer.org/download/">Composer</a>
 
 ## Como rodar o projeto baixado
 
@@ -26,7 +26,7 @@ git clone https://github.com/KaykeTorres-Dev/teste-pratico-dev-web-jr-server.git
 
 * Instalar o <a href="https://getcomposer.org/download/">Composer</a>
 
-* Instalar o Laravel
+* Instalar o <a href="https://laravel.com/docs/11.x">Laravel</a>  
 
 ```
 composer global require laravel/installer
