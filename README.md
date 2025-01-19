@@ -17,6 +17,11 @@ Este projeto foi realizado utilizando Laravel 11, Xampp 8.2.12 e Composer 2.8.4.
 
 ## Como rodar o projeto baixado
 
+* Clone o repositório:
+ ```
+git clone https://github.com/KaykeTorres-Dev/teste-pratico-dev-web-jr-server.git
+```
+
 * Instalar o <a href="https://www.apachefriends.org/pt_br/index.html">Xampp</a> 
 
 * Instalar o <a href="https://getcomposer.org/download/">Composer</a>
