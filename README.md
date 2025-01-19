@@ -11,52 +11,51 @@ Este projeto foi realizado utilizando Laravel 11, Xampp 8.2.12 e Composer 2.8.4.
 
 ## Requisitos
 
-* <a href="https://www.apachefriends.org/pt_br/index.html">Xampp</a> 
-* <a href="https://laravel.com/docs/11.x">Laravel</a>  
-* <a href="https://getcomposer.org/download/">Composer</a>
-
-## Como rodar o projeto baixado
-
+* <a href="https://www.apachefriends.org/pt_br/index.html">Xampp</a>;
+* <a href="https://laravel.com/docs/11.x">Laravel</a>;
+* <a href="https://getcomposer.org/download/">Composer</a>;
 * Clone o repositório:
  ```
 git clone https://github.com/KaykeTorres-Dev/teste-pratico-dev-web-jr-server.git
 ```
 
-* Instalar o <a href="https://www.apachefriends.org/pt_br/index.html">Xampp</a> 
+## Como rodar o projeto baixado
 
-* Instalar o <a href="https://getcomposer.org/download/">Composer</a>
+* Instalar o <a href="https://www.apachefriends.org/pt_br/index.html">Xampp</a>;
 
-* Instalar o <a href="https://laravel.com/docs/11.x">Laravel</a>  
+* Instalar o <a href="https://getcomposer.org/download/">Composer</a>;
+
+* Instalar o <a href="https://laravel.com/docs/11.x">Laravel</a>:
 
 ```
 composer global require laravel/installer
 ```
 
-Duplicar o arquivo ".env.example" e renomear para ".env".<br>
+* Duplicar o arquivo ".env.example" e renomear para ".env";
 
-Gerar a chave no arquivo .env
+* Gerar a chave no arquivo .env:
 ```
 php artisan key:generate
 ```
 
-Executar as migration
+* Executar as migration:
 ```
 php artisan migrate
 ```
 
-Executar as seed
+* Executar as seed:
 ```
 php artisan db:seed
 ```
 
-Iniciar o projeto criado com Laravel
+* Iniciar o projeto criado com Laravel:
 ```
 php artisan serve
 ```
 
-Não esquecer de abrir o Xampp e iniciar o Apache e o MySQL
+* Não esquecer de abrir o Xampp e iniciar o Apache e o MySQL;
 
-Para acessar a API, é recomendado utilizar o <a href="https://insomnia.rest/download">Insomnia</a> para simular requisições à API.
+* Para acessar a API, é recomendado utilizar o <a href="https://insomnia.rest/download">Insomnia</a> para simular requisições à API:
 ```
 http://127.0.0.1:8000/api/users/
 ```
